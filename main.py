@@ -6,7 +6,7 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.autograd import Variable
 from torch.utils.data import DataLoader
-from models2 import Net, L1_Charbonnier_loss
+from models import Net, L1_Charbonnier_loss
 from data import get_training_set
 
 # Training settings
